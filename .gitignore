@@ -1,0 +1,40 @@
+# İşletim Sistemi Geçici Dosyaları
+.DS_Store
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Arduino
+build/
+*.elf
+*.hex
+*.eep
+*.bin
+*.out
+*.map
+
+# Processing
+application.windows32/
+application.windows64/
+application.macosx/
+application.linux32/
+application.linux64/
+application.linux-arm64/
+application.linux-armv6hf/
+
+# Flutter & Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.log
+*.pb.dart
+*.iml
+android/.gradle/
+android/local.properties
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
